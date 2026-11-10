@@ -1,0 +1,15 @@
+import os
+
+os.environ.update(
+    BOT_TOKEN="42:TEST",
+    SPONSOR_CHANNEL_ID="@sponsor",
+    STARTING_BALANCE="30",
+    PRICE_VIEW_PHOTOS_ONLY="2",
+    PRICE_VIEW_BIO_ONLY="1",
+    PRICE_VIEW_FULL_PROFILE="3",
+    PRICE_SEND_ANON_MSG="5",
+    PRICE_SEND_NAMED_MSG="3",
+    PRICE_REQUEST_PM="15",
+    REFUND_ON_PM_REJECT="true",
+    PAYMENTS_MOCK="false",
+)
